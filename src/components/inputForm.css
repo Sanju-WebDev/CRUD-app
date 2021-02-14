@@ -1,0 +1,40 @@
+body {
+    background-color: #F3F3F3;
+}
+
+.form-container {
+    width: 40vw;
+    margin: 20vh auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #D3D3D3;
+}
+
+.form-container .form-header {
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-form input {
+    height: 30px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.input-form .submit-btn {
+    border: 1px solid #22B9FF;
+    background-color: white;
+    color: #22B9FF;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.input-form .submit-btn:hover {
+    background-color: #22B9FF;
+    color: white;
+}
